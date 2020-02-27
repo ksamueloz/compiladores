@@ -1,11 +1,12 @@
-import sys
-#from potencia import Potencia
+import sys 
+from potencia import Potencia
 user = sys.argv[1]
-potencia = sys.argv[2]
+pot = sys.argv[2]
 detalle = sys.argv[3]
 print (user)
-print (potencia)
+print (pot)
 print (detalle)
 
-
+operacion = Potencia(user,pot,detalle)
+operacion.verificar()
 
