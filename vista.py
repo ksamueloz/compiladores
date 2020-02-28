@@ -8,5 +8,5 @@ print (pot)
 print (detalle)
 
 operacion = Potencia(user,pot,detalle)
-operacion.verificar()
+operacion.alfa()
 
