@@ -7,11 +7,16 @@ class Potencia():
         self.contador = 0
 
     def alfa(self):
-        lista = []
-        for i in range(0, len(self.caracteres)):
-            for j in range(0, len(self.letras)):
-                self.contador += self.contador
-                if(self.potencia == self.contador):
-                    print(self.caracteres+self.letras)
-                else:
-                    print(self.caracteres+self.letras)            
+        while (self.potencia):
+            print (self.caracteres)
+        
+
+    def verificar(self):
+        if self.tipo == "-vd":
+            print(self.alfa())
+        elif self.tipo == "+vd":
+            print(self.paso_a_paso())
+    
+    def paso_a_paso(self):
+        pass
+    
